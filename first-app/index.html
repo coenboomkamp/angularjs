@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS - First App</title>
+</head>
+<body>
+<h1>First App</h1>
+<div ng-app = "">
+    <label for="name">Name</label>
+    <input id="name" type="text" ng-model="name">
+    <p>
+        <span>Hello</span>
+        <span ng-bind="name"></span>
+    </p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</body>
+</html>
