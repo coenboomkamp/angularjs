@@ -1,3 +1,4 @@
 .idea/
 /boltnetwork/node_modules/
 /boltnetwork/package-lock.json
+/boltnetwork/dist/
